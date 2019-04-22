@@ -9,5 +9,9 @@ yarn add --dev typescript jest ts-jest got @types/jest @types/got
 yarn ts-jest config:init
 tslint --init
 
+# In VSCode
+(using Ctrl+P)
+ext install ms-vscode.vscode-typescript-tslint-plugin
+
 # Run tests
 yarn jest
