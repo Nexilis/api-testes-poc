@@ -1,0 +1,15 @@
+{
+  "name": "api-tests-poc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/got": "^9.4.3",
+    "@types/jest": "^24.0.11",
+    "axios": "^0.18.0",
+    "got": "^9.6.0",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.4"
+  }
+}
