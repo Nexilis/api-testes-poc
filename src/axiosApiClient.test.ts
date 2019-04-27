@@ -1,5 +1,3 @@
-/// <reference types="jest" />
-
 import Axios from "axios";
 
 test("Axios api test", async () => {
@@ -9,4 +7,5 @@ test("Axios api test", async () => {
 
     expect(response.status).toBe(200);
     expect(response.data).toMatchSnapshot();
+    expect(response.data).toMatchObject({details: "http://github.com/adamcooke/vat-rates"});
 });

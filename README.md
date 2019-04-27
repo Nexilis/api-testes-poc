@@ -5,7 +5,7 @@ yarn init
 yarn global add tslint typescript
 
 # In project directory
-yarn add --dev typescript jest ts-jest got @types/jest @types/got
+yarn add --dev typescript jest ts-jest axios @types/jest
 yarn ts-jest config:init
 tslint --init
 
